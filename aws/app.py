@@ -20,7 +20,6 @@ def predict():
         predictions = ml_handler.handle(text)
     else:
         predictions = dl_handler.handle(text)
-
     # response
     result = json.dumps({str(i): {'text': t, 'label': l, 'confidence': c}
                          for i, (t, l, c) in enumerate(zip(text, predictions[0], predictions[1]))})
