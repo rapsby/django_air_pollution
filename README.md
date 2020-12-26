@@ -1,2 +1,0 @@
-# kdt-ai-aws
- 
