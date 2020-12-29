@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Django</title>
+    </head>
+        
+    <body>
+        <h1>Title123</h1>
+        {% for element in my_list %}
+            {% if element|divisibleby:"2" %}
+                <p>{{ element }}</p>
+            {% endif%}
+        {% endfor %}
+    </body>
+</html>
+
