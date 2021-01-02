@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "kdt-ai-aws"
+    "liveServer.settings.multiRootWorkspaceName": "kdt-ai-aws",
+    "python.pythonPath": "/home/ubuntu/anaconda3/envs/python3/bin/python"
 }
