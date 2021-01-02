@@ -25,7 +25,7 @@ SECRET_KEY = 'mhbut#a8e#c*ey=$4j1j16$+9bonv3h0dhr3-_08^@%#=5=@9%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['18.183.149.44', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['54.250.59.229', 'localhost', '127.0.0.1']
 
 
 # Application definition
@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'livereload',
+    #'livereload',
     'django.contrib.staticfiles',
     'homepage',
 ]
@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'livereload.middleware.LiveReloadScript',
+    #'livereload.middleware.LiveReloadScript',
 ]
 
 ROOT_URLCONF = 'webproj.urls'

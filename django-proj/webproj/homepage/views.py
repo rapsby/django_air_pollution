@@ -1,6 +1,6 @@
 from django.shortcuts import HttpResponse, render
 from plotly.offline import plot
-from plotly.graph_objs import Scatter
+from plotly.graph_objs import Scatter, Heatmap
 from .models import Coffee
 from .forms import CoffeeForm
 # Create your views here.
