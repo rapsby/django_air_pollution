@@ -472,3 +472,53 @@ Starting development server at http://0.0.0.0:8000/
 Quit the server with CONTROL-C.
 Watching for file changes with StatReloader
 [02/Jan/2021 14:45:36] "GET /air_pollution/ HTTP/1.1" 200 3466712
+[02/Jan/2021 15:12:25] "GET / HTTP/1.1" 200 353
+[02/Jan/2021 15:12:25] "GET /air_pollution/ HTTP/1.1" 200 3466712
+[02/Jan/2021 15:12:35] "GET / HTTP/1.1" 200 353
+[02/Jan/2021 15:12:36] "GET /coffee/ HTTP/1.1" 200 944
+/home/ubuntu/django_air_pollution/django-proj/webproj/homepage/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 02, 2021 - 14:45:31
+Django version 3.1.4, using settings 'webproj.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[02/Jan/2021 16:50:17] "GET / HTTP/1.1" 200 353
+[02/Jan/2021 16:50:19] "GET /air_pollution HTTP/1.1" 301 0
+[02/Jan/2021 16:50:23] "GET /air_pollution/ HTTP/1.1" 200 240
+/home/ubuntu/django_air_pollution/django-proj/webproj/homepage/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+January 02, 2021 - 16:50:04
+Django version 3.1.4, using settings 'webproj.settings'
+Starting development server at http://0.0.0.0:8000/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[02/Jan/2021 16:51:39] "GET /air_pollution/ HTTP/1.1" 200 1784221
+Not Found: /air_pollution/custom.css
+[02/Jan/2021 16:51:39] "GET /air_pollution/custom.css HTTP/1.1" 404 2337
+Not Found: /air_pollution/custom.css
+[02/Jan/2021 16:53:44] "GET /air_pollution/custom.css HTTP/1.1" 404 2337
+Not Found: /air_pollution/style.min.css.map
+[02/Jan/2021 16:53:44] "GET /air_pollution/style.min.css.map HTTP/1.1" 404 2358
+[02/Jan/2021 16:57:07] "GET /air_pollution/ HTTP/1.1" 200 1784221
+Not Found: /air_pollution/custom.css
+[02/Jan/2021 16:57:07] "GET /air_pollution/custom.css HTTP/1.1" 404 2337
+[02/Jan/2021 17:04:00] "GET / HTTP/1.1" 200 353
+Not Found: /air_pollution/custom.css
+[02/Jan/2021 17:07:38] "GET /air_pollution/custom.css HTTP/1.1" 404 2337
+[02/Jan/2021 17:10:57] "GET / HTTP/1.1" 200 353
+[02/Jan/2021 17:10:59] "GET /coffee/ HTTP/1.1" 200 944
+Not Found: /air_pollution/custom.css
+[02/Jan/2021 17:11:02] "GET /air_pollution/custom.css HTTP/1.1" 404 2337
+[02/Jan/2021 17:12:40] "GET / HTTP/1.1" 200 438
+[02/Jan/2021 17:12:41] "GET /air_pollution/ HTTP/1.1" 200 1784221
+Not Found: /air_pollution/custom.css
+[02/Jan/2021 17:12:41] "GET /air_pollution/custom.css HTTP/1.1" 404 2337
+[02/Jan/2021 17:12:43] "GET /coffee/ HTTP/1.1" 200 944
+[02/Jan/2021 17:12:46] "GET /air_pollution/ HTTP/1.1" 200 1784221
+Not Found: /air_pollution/custom.css
+[02/Jan/2021 17:12:46] "GET /air_pollution/custom.css HTTP/1.1" 404 2337

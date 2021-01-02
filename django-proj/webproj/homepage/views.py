@@ -28,4 +28,4 @@ def air_pollution_view(request):
                         mode='lines', name='test',
                         opacity=0.8, marker_color='green')],
                output_type='div')
-    return render(request, "air_pollution.html", context={'plot_div': plot_div})
+    return render(request, "air_pollution_seoul.html")
